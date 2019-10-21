@@ -13,4 +13,9 @@ class Appointment
   def self.all
     @@all
   end
+
+  def patient=(patient)
+  @patient = patient
+  end
+
 end
