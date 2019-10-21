@@ -24,5 +24,5 @@ class Doctor
     appointments.map {|appoint| appoint.patient}
   end
 
-
+end
 end
